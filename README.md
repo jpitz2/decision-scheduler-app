@@ -7,3 +7,4 @@ cd backend   --> enter "backend" folder
 uvicorn main:app --reload   --> run once at beginning of workday, and server will automatically track changes in code and restart server
 
 deactivate --> exits out of venv
+
