@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Database file (local data shouldn't be pushed to GitHub)
+*.db
+
+# Environment variables / secrets
+.env
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db

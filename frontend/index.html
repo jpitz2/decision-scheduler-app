@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Weekly Decision Planner</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Weekly Decision Planner</h1>
+        <form id="task-form">
+            <input type="text" id="task-name" placeholder="Task Name" required />
+            <select id="task-priority">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <input type="number" id="task-duration" placeholder="Duration (minutes)"/>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <ul id="task-list"></ul>
+
+        <!-- TODO: add task input form here-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
